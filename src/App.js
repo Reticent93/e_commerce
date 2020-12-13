@@ -1,9 +1,10 @@
 import React from 'react'
-import Products from './components/Products/Products.js'
+import {Products, Navbar} from './components'
 
 const App = () => {
     return (
         <h1>
+            <Navbar />
             <Products />
         </h1>
     )
